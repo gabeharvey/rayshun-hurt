@@ -47,86 +47,73 @@ function PlayerProfile() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 2, ease: 'easeOut' }}
         >
-          {/* Base white background */}
+          {/* Off-white paper-like base background */}
           <Box
             position="absolute"
             top="0"
             left="0"
             w="100%"
             h="100%"
-            bgColor="#ffffff"
+            bgGradient="linear(to-b, #f8f9fb, #eceff3)"
+            bgImage="url('data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%2710%27 height=%2710%27><circle cx=%275%27 cy=%275%27 r=%270.3%27 fill=%27%23dcdcdc%27/></svg>')"
+            bgRepeat="repeat"
+            bgSize="15px 15px"
             zIndex={0}
           />
 
-          {/* Darker watermark logo behind player */}
+          {/* Subtle angled watermark pattern */}
           <Box
             position="absolute"
-            top="0"
-            left="0"
-            w="100%"
-            h="100%"
+            top="-10%"
+            left="-10%"
+            w="120%"
+            h="120%"
             bgImage="url('/johnson-logo.png')"
             bgRepeat="repeat"
-            bgSize="140px 140px"
-            opacity="0.15"  // ← darkened from 0.07 to 0.15
-            filter="grayscale(100%) contrast(120%) brightness(80%)"
+            bgSize="160px 160px"
+            transform="rotate(-10deg)"
+            opacity="0.12"
+            filter="grayscale(100%) contrast(120%) brightness(75%)"
             zIndex={1}
           />
 
-          {/* Diagonal shimmer animation */}
+          {/* Second faint watermark layer for parallax feel */}
+          <Box
+            position="absolute"
+            top="10%"
+            left="10%"
+            w="120%"
+            h="120%"
+            bgImage="url('/johnson-logo.png')"
+            bgRepeat="repeat"
+            bgSize="130px 130px"
+            transform="rotate(15deg)"
+            opacity="0.08"
+            filter="grayscale(100%) contrast(110%) brightness(85%)"
+            zIndex={1}
+          />
+
+          {/* Soft shimmer effect */}
           <MotionBox
             position="absolute"
             top="0"
             left="-100%"
             w="200%"
             h="100%"
-            bg="linear-gradient(120deg, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.12) 50%, rgba(255,255,255,0.0) 100%)"
+            bg="linear-gradient(120deg, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.0) 100%)"
             zIndex={2}
             animate={{ x: ["-100%", "100%"] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
           />
 
-          {/* Radial glow spots */}
-          <Box
-            position="absolute"
-            top="-20%"
-            left="-20%"
-            w="150%"
-            h="150%"
-            bgGradient="radial(circle at top left, rgba(255,255,255,0.25), transparent)"
-            filter="blur(50px)"
-            zIndex={1}
-          />
-          <Box
-            position="absolute"
-            bottom="-20%"
-            right="-20%"
-            w="150%"
-            h="150%"
-            bgGradient="radial(circle at bottom right, rgba(255,250,255,0.2), transparent)"
-            filter="blur(50px)"
-            zIndex={1}
-          />
-
-          {/* Optional subtle diagonal stripe overlay */}
-          <Box
-            position="absolute"
-            top="0"
-            left="0"
-            w="100%"
-            h="100%"
-            bgImage="repeating-linear-gradient(45deg, rgba(0,0,0,0.02) 0px, rgba(0,0,0,0.02) 5px, transparent 5px, transparent 10px)"
-            zIndex={2}
-          />
-
-          {/* Bottom 10% accent for "sports card" feel */}
+          {/* Bottom accent strip */}
           <Box
             position="absolute"
             bottom="0"
             left="0"
             w="100%"
             h="10%"
-            bgGradient="linear(to-r, #f0f4ff, #e0e8ff)"
+            bgGradient="linear(to-r, #f2f5ff, #e5ecff)"
             borderTop="1px solid #4682B4"
             zIndex={2}
           />

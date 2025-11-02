@@ -94,7 +94,7 @@ const Navbar = () => {
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
                     >
-                        Rayshun Hurt
+                        Rayshun Hurt #6
                     </Heading>
                 </Flex>
                 <Spacer />
