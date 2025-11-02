@@ -27,7 +27,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="2xl" fontWeight="medium" color="#004B23" fontFamily="'Atomic Age', sans-serif" mb="5">
+      <Heading fontSize="2xl" fontWeight="medium" color="#4682B4" fontFamily="'Russo One', sans-serif" mb="5">
         {player.name}
       </Heading>
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
@@ -56,7 +56,7 @@ function PlayerProfile() {
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
-          borderColor="#004B23"
+          borderColor="#4682B4"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={6}
           initial={{ scale: 0.9, opacity: 0.5 }}
@@ -66,10 +66,10 @@ function PlayerProfile() {
           <Grid gap={4}>
             {player.bioCategories.map((category, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#000000" fontWeight="bold" fontFamily="'Atomic Age', sans-serif" fontSize="lg">
+                <Text color="#000000" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="lg">
                   {category.title}
                 </Text>
-                <Text color="#000000" fontFamily="'Oswald', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
+                <Text color="#000000" fontFamily="'Orbitron', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
                   {category.description}
                 </Text>
               </Box>

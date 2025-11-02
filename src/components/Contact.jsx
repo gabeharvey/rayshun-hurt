@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="2xl" fontWeight="medium" color="#004B23" fontFamily="'Atomic Age', sans-serif">
+      <Heading fontSize="2xl" fontWeight="medium" color="#4682B4" fontFamily="'Russo One', sans-serif">
         Contact Rayshun
       </Heading>
       
@@ -26,7 +26,7 @@ function Contact() {
         bgImage="linear-gradient(-45deg, #ebebeb 25%, transparent 25%, transparent 50%, #ebebeb 50%, #ebebeb 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#004B23"
+        borderColor="#4682B4"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -36,7 +36,7 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color="#004B23" fontFamily="'Atomic Age', sans-serif">
+            <FormLabel color="#4682B4" fontFamily="'Russo One', sans-serif">
               Name
             </FormLabel>
             <Input
@@ -49,7 +49,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color="#004B23" fontFamily="'Atomic Age', sans-serif">
+            <FormLabel color="#4682B4" fontFamily="'Russo One', sans-serif">
               Email
             </FormLabel>
             <Input
@@ -63,7 +63,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color="#004B23" fontFamily="'Atomic Age', sans-serif">
+            <FormLabel color="#4682B4" fontFamily="'Russo One', sans-serif">
               Message
             </FormLabel>
             <Textarea
@@ -78,16 +78,16 @@ function Contact() {
 
           <Button
             mt={4}
-            bgColor="#004B23"
+            bgColor="#4682B4"
             color="#F8F8F8"
             minW="100%"
             maxW="45%"
             alignSelf="center"
-            fontFamily="'Atomic Age', sans-serif"
+            fontFamily="'Russo One', sans-serif"
             fontWeight="medium"
             fontSize="md"
             borderRadius="8px"
-            borderColor="#004B23"
+            borderColor="#4682B4"
             borderWidth="3px"
             _hover={{ borderColor: '#F8F8F8' }}
           >

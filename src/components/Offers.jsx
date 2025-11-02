@@ -31,7 +31,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="2xl" fontWeight="medium" color="#004B23" fontFamily="'Atomic Age', sans-serif" mb="5">
+      <Heading fontSize="2xl" fontWeight="medium" color="#4682B4" fontFamily="'Russo One', sans-serif" mb="5">
         Scholarship Offers
       </Heading>
       <Flex
@@ -51,7 +51,7 @@ function Offers() {
             bgSize="1px 1px"
             borderRadius="12px"
             borderWidth="5px"
-            borderColor="#004B23"
+            borderColor="#4682B4"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"
@@ -69,10 +69,10 @@ function Offers() {
               mr={4}
             />
             <Box>
-              <Text color="#000000" fontWeight="bold" fontFamily="'Atomic Age', sans-serif" fontSize="md">
+              <Text color="#000000" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="md">
                 {offer.schoolName}
               </Text>
-              <Text color="#000000" fontFamily="'Titillium Web', sans-serif" fontSize="md" fontWeight="semibold" mt={1}>
+              <Text color="#000000" fontFamily="'Orbitron', sans-serif" fontSize="md" fontWeight="semibold" mt={1}>
                 {offer.description}
               </Text>
             </Box>

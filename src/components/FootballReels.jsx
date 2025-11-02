@@ -9,11 +9,11 @@ function VideoCard({ videoSrc, title, description }) {
         h="100%"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#004B23"
+        borderColor="#4682B4"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         overflow="hidden"
-        bgColor="#004B23"
-        bgImage="linear-gradient(-45deg, #004B23 25%, transparent 25%, transparent 50%, #004B23 50%, #004B23 75%, transparent 75%, transparent)"
+        bgColor="#4682B4"
+        bgImage="linear-gradient(-45deg, #4682B4 25%, transparent 25%, transparent 50%, #4682B4 50%, #4682B4 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         display="flex"
         flexDirection="column"
@@ -31,10 +31,10 @@ function VideoCard({ videoSrc, title, description }) {
           />
         </Box>
         <Box p={3} textAlign="center" bgColor="#F5F5F5" h="30%">
-          <Text fontSize="lg" fontWeight="semibold" color="#000000" fontFamily="'Atomic Age', sans-serif">
+          <Text fontSize="lg" fontWeight="semibold" color="#000000" fontFamily="'Russo One', sans-serif">
             {title}
           </Text>
-          <Text mt={2} fontSize="lg" fontWeight="bold" color="#000000" fontFamily="'Oswald', sans-serif">
+          <Text mt={2} fontSize="lg" fontWeight="bold" color="#000000" fontFamily="'Orbitron', sans-serif">
             {description}
           </Text>
         </Box>
@@ -48,42 +48,42 @@ function FootballReels() {
     {
       videoSrc: "rayshun-breakaway.MOV",
       title: "Rayshun's Breakaway Run",
-      description: "Explosive speed. Untouchable power. 🚀",
+      description: "Explosive speed. Untouchable power.",
     },
     {
       videoSrc: "rayshun-catch.MOV",
       title: "One-Handed Grab",
-      description: "Elite WR hands on full display. 🖐️",
+      description: "Elite WR hands on full display.",
     },
     {
       videoSrc: "rayshun-spin.MOV",
       title: "Spin Move Highlight",
-      description: "RB vision and balance — next level. ⚡",
+      description: "RB vision and balance — next level.",
     },
     {
       videoSrc: "rayshun-burst.MOV",
       title: "Track Speed on the Field",
-      description: "Blazing acceleration that burns defenders. 🏃‍♂️💨",
+      description: "Blazing acceleration that burns defenders.",
     },
     {
       videoSrc: "rayshun-td.MOV",
       title: "Touchdown Machine",
-      description: "End zone regular — Johnson High’s playmaker. 🏈🔥",
+      description: "End zone regular — Johnson High’s playmaker.",
     },
     {
       videoSrc: "rayshun-route.MOV",
       title: "Crisp Route Running",
-      description: "Footwork precision. Wideout excellence. 🎯",
+      description: "Footwork precision. Wideout excellence.",
     },
     {
       videoSrc: "rayshun-track.MOV",
       title: "Track Meet Highlights",
-      description: "Pure speed. Championship mentality. 🥇",
+      description: "Pure speed. Championship mentality.",
     },
     {
       videoSrc: "rayshun-allstar.MOV",
       title: "All-Star Game Highlights",
-      description: "Proving why he’s one of Texas’ finest. ⭐",
+      description: "Proving why he’s one of Texas’ finest.",
     },
   ];
 
@@ -105,8 +105,8 @@ function FootballReels() {
       <Text
         fontSize="2xl"
         fontWeight="medium"
-        color="#004B23"
-        fontFamily="'Atomic Age', sans-serif"
+        color="#4682B4"
+        fontFamily="'Russo One', sans-serif"
         textAlign="center"
       >
         Rayshun Hurt — Star RB / WR / Track Athlete <br /> Johnson High School 🏈

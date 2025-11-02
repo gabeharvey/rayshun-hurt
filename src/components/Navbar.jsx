@@ -66,14 +66,14 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#004B23"
+            bgColor="#4682B4"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
             position="relative"
             boxShadow="lg"
             mb="10px"
-            fontFamily="'Atomic Age', sans-serif"
+            fontFamily="'Russo One', sans-serif"
         >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
@@ -88,7 +88,7 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}
                         fontSize={{ base: 'xl', md: '2xl' }}
-                        fontFamily="'Atomic Age', sans-serif"
+                        fontFamily="'Russo One', sans-serif"
                         color="#F5F5F5"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
@@ -181,7 +181,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#004B23"
+                            bgColor="#4682B4"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"

@@ -35,37 +35,92 @@ function Card({ frontImg, bio, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-            borderColor="#004B23"
+            borderColor="#4682B4"
             borderWidth="3px"
             w="100%"
             h="100%"
             display="flex"
             alignItems="center"
             justifyContent="center"
-          ></Box>
+          />
         </Box>
 
         {/* BACK SIDE */}
         <Box
-          bgColor="#2E2E2E"
-          bgImage="linear-gradient(-45deg, #444 25%, transparent 25%, transparent 50%, #222 50%, #222 75%, transparent 75%, transparent)"
-          bgSize="1px 1px"
           position="absolute"
-          style={{ backfaceVisibility: 'hidden' }}
           w="100%"
           h="100%"
           borderRadius="12px"
-          borderColor="#004B23"
+          borderColor="#4682B4"
           borderWidth="3px"
+          style={{ backfaceVisibility: 'hidden' }}
           display="flex"
           flexDirection="column"
           alignItems="center"
           justifyContent="center"
-          boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
+          boxShadow="0 0 20px rgba(0,0,0,0.8), inset 0 0 15px rgba(255,255,255,0.05)"
           transform="rotateY(180deg)"
+          bgGradient="linear(to-tr, #0d0d0d, #1a1a1a, #000000)"
           p={5}
+          overflow="hidden"
         >
-          <Text mt={4} color="#F8F8F8" fontFamily="'Atomic Age', sans-serif" fontSize="lg" fontWeight="medium" textAlign="center">
+          {/* Dynamic motion lines overlay */}
+          <Box
+            position="absolute"
+            w="150%"
+            h="150%"
+            top="-25%"
+            left="-25%"
+            bgImage="repeating-linear-gradient(
+              45deg,
+              rgba(255,255,255,0.05) 0px,
+              rgba(255,255,255,0.05) 2px,
+              transparent 2px,
+              transparent 10px
+            )"
+            transform="rotate(0deg)"
+            pointerEvents="none"
+          />
+
+          <Box
+            position="absolute"
+            w="150%"
+            h="150%"
+            top="-25%"
+            left="-25%"
+            bgImage="repeating-linear-gradient(
+              -45deg,
+              rgba(255,255,255,0.05) 0px,
+              rgba(255,255,255,0.05) 2px,
+              transparent 2px,
+              transparent 10px
+            )"
+            transform="rotate(0deg)"
+            pointerEvents="none"
+          />
+
+          {/* Centered Logo */}
+          <Box
+            w="80px"
+            h="80px"
+            mb={4}
+            bgImage="url('/johnson-logo.png')" // replace with your logo
+            bgSize="contain"
+            bgRepeat="no-repeat"
+            bgPosition="center"
+            zIndex={1}
+          />
+
+          {/* Player Bio */}
+          <Text
+            color="#FFFFFF"
+            fontFamily="'Russo One', sans-serif"
+            fontSize="lg"
+            fontWeight="medium"
+            textAlign="center"
+            textShadow="1px 1px 3px rgba(0,0,0,0.8)"
+            zIndex={1}
+          >
             {bio}
           </Text>
         </Box>
@@ -81,42 +136,42 @@ function PlayerCards() {
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "Rayshun Hurt is a dominant RB with explosive acceleration and elite field vision, turning every carry into a home-run threat. ⚡🏈",
+      bio: "Rayshun Hurt is a dominant RB with explosive acceleration and elite field vision, turning every carry into a home-run threat.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "As a wide receiver, Rayshun shows precise route running and strong hands — a nightmare for defensive backs. 🎯🔥",
+      bio: "As a wide receiver, Rayshun shows precise route running and strong hands — a nightmare for defensive backs.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "On the track, Rayshun’s top-end speed sets him apart — a dual-sport athlete who brings sprinter speed to the gridiron. 🏃‍♂️💨",
+      bio: "On the track, Rayshun’s top-end speed sets him apart — a dual-sport athlete who brings sprinter speed to the gridiron.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "Rayshun’s agility and balance make him nearly impossible to tackle in open space — pure highlight reel material. 🌀✨",
+      bio: "Rayshun’s agility and balance make him nearly impossible to tackle in open space — pure highlight reel material.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "In clutch moments, Rayshun thrives — a leader who elevates his team with every snap. 🏆🔥",
+      bio: "In clutch moments, Rayshun thrives — a leader who elevates his team with every snap.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "From the backfield or out wide, Rayshun delivers — versatility that defines modern football excellence. 💪💥",
+      bio: "From the backfield or out wide, Rayshun delivers — versatility that defines modern football excellence.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "Rayshun combines football IQ, toughness, and explosive speed — the complete offensive weapon. 🧠⚡",
+      bio: "Rayshun combines football IQ, toughness, and explosive speed — the complete offensive weapon.",
     },
     {
       frontImg: "rayshun-tr-bg.png",
       name: "Rayshun Hurt",
-      bio: "Johnson High’s premier playmaker — a relentless competitor destined for greatness. ⭐🏈",
+      bio: "Johnson High’s premier playmaker — a relentless competitor destined for greatness.",
     },
   ];
 
@@ -138,17 +193,17 @@ function PlayerCards() {
       <Text
         fontSize="2xl"
         fontWeight="medium"
-        color="#004B23"
-        fontFamily="'Atomic Age', sans-serif"
+        color="#4682B4"
+        fontFamily="'Russo One', sans-serif"
         textAlign="center"
       >
-        Rayshun Hurt — RB / WR / Track Star  
+        Rayshun Hurt — RB / WR / Track Star
       </Text>
       <Text
         fontSize="md"
         fontWeight="medium"
-        color="#004B23"
-        fontFamily="'Atomic Age', sans-serif"
+        color="#4682B4"
+        fontFamily="'Russo One', sans-serif"
       >
         Click on a card to see highlights and details
       </Text>
