@@ -69,55 +69,6 @@
   color: #F8F8F8; 
 }
 
-.footer {
-  background-color: #4682B4; 
-  font-family: "Russo One", sans-serif;
-  padding: 20px;
-  text-align: center;
-  background-image: linear-gradient(-45deg, #4682B4 25%, transparent 25%, transparent 50%, #4682B4 50%, #4682B4 75%, transparent 75%, transparent);
-  background-size: 1px 1px;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column; 
-  flex-wrap: wrap; 
-}
-
-.footer-logo {
-  color: #F5F5F5; 
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 100x; 
-}
-
-.footer-nav {
-  flex-grow: 1; 
-}
-
-.footer-links {
-  list-style-type: none;
-  display: flex;
-  justify-content: center; 
-  margin: 0;
-  padding: 0;
-}
-
-.footer-item {
-  margin: 0 15px;
-}
-
-.footer-link {
-  color: #F5F5F5; 
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.footer-link:hover {
-  color: #F28C28; 
-}
-
 .tilt-prism-footer {
   font-family: 'Tilt Prism', sans-serif;
   font-size: 24px;
