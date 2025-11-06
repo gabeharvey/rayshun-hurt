@@ -8,7 +8,7 @@ const MotionBox = motion.create(Box);
 
 function PlayerProfile() {
   const player = {
-    frontImg: "rayshun-tr-bg.png",
+    frontImg: "rayshun-hurt.JPG",
     secondImg: "basketball-placeholder.png",
     name: "Player Bio", 
     bioCategories: [
