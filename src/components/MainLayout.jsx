@@ -5,6 +5,8 @@ import Contact from './Contact';
 import FootballReels from './FootballReels';
 import Offers from './Offers';
 import Media from './Media';
+import Ask from './Ask';
+import Academics from './Academics';
 
 const MainLayout = () => {
   return (
@@ -15,11 +17,17 @@ const MainLayout = () => {
       <div id="records">
         <Records />
       </div>
+      <div id="academics">
+        <Academics />
+      </div>
       <div id="football-reels">
         <FootballReels />
       </div>
       <div id="player-cards">
         <PlayerCards />
+      </div>
+      <div id="ask">
+        <Ask />
       </div>
       <div id="media">
         <Media />

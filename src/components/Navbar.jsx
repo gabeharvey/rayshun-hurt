@@ -66,8 +66,11 @@ const Navbar = () => {
 
   const menuItems = [
     'PLAYER BIO',
+    'RECORDS',
+    'ACADEMICS',
     'FOOTBALL REELS',
     'PLAYER CARDS',
+    'ASK',
     'MEDIA',
     'OFFERS',
     'CONTACT',
