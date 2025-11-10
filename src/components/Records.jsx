@@ -11,7 +11,7 @@ function Records() {
       { event: "200m Dash", time: "21.28s" },
     ],
     football: [
-      { event: "40 Yard Dash", result: "4.49s" },
+      { event: "40 Yard Dash", result: "4.40s" },
       { event: "Bench Press (225 lbs)", result: "12 reps" },
       { event: "Vertical Jump", result: "36 in" },
       { event: "Shuttle Run", result: "4.18s" },
