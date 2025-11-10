@@ -25,6 +25,7 @@ function Stats() {
         color="#4682B4"
         fontFamily="'Russo One', sans-serif"
         mb="5"
+        textAlign="center"
       >
         {stats.title}
       </Heading>
