@@ -7,6 +7,7 @@ import Offers from './Offers';
 import Media from './Media';
 import Ask from './Ask';
 import Academics from './Academics';
+import Stats from './Stats';
 
 const MainLayout = () => {
   return (
@@ -25,6 +26,9 @@ const MainLayout = () => {
       </div>
       <div id="player-cards">
         <PlayerCards />
+      </div>
+      <div id="stats">
+        <Stats />
       </div>
       <div id="ask">
         <Ask />
