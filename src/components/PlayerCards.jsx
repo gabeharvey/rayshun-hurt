@@ -204,6 +204,7 @@ function PlayerCards() {
         fontWeight="medium"
         color="#4682B4"
         fontFamily="'Russo One', sans-serif"
+        textAlign="center"
       >
         Click on a card to see highlights and details
       </Text>
