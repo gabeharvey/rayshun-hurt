@@ -51,9 +51,9 @@ function FootballReels() {
       description: "Elusive burst through the line - gone for six.",
     },
     {
-      videoSrc: "rayshun-catch.MOV",
-      title: "One-Handed Grab",
-      description: "Elite WR hands on full display.",
+      videoSrc: "rayshun-vid-2.MOV",
+      title: "TD Run After Contact",
+      description: "Breaks free, hits top speed, and finishes with a stiff-arm at the goal line.",
     },
     {
       videoSrc: "rayshun-spin.MOV",
