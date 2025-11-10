@@ -70,6 +70,7 @@ const Navbar = () => {
     'ACADEMICS',
     'FOOTBALL REELS',
     'PLAYER CARDS',
+    'STATS',
     'ASK',
     'MEDIA',
     'OFFERS',
