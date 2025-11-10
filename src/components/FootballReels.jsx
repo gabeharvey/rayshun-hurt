@@ -46,9 +46,9 @@ function VideoCard({ videoSrc, title, description }) {
 function FootballReels() {
   const videos = [
     {
-      videoSrc: "rayshun-breakaway.MOV",
-      title: "Rayshun's Breakaway Run",
-      description: "Explosive speed. Untouchable power.",
+      videoSrc: "rayshun-vid-1.MOV",
+      title: "Rayshun Breaking LOS",
+      description: "Elusive burst through the line - gone for six.",
     },
     {
       videoSrc: "rayshun-catch.MOV",
