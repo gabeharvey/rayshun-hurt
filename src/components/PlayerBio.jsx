@@ -173,8 +173,8 @@ function PlayerProfile() {
           </Grid>
 
           <Flex justifyContent="center" mt={6}>
-            <IconButton as={Link} to="https://x.com/RayshunHurt" aria-label="X" icon={<Image src={XLogo} alt="X Logo" boxSize="24px" />} variant="ghost" color="#000000" _hover={{ color: '#F5F5F5' }} _active={{ bg: 'transparent' }} m="1" />
-            <IconButton as={Link} to="https://www.hudl.com/profile/18697964/Rayshun-Hurt" aria-label="Hudl" icon={<Image src="/hudl-logo.png" alt="Hudl Logo" boxSize="24px" />} variant="ghost" color="#000000" _hover={{ color: '#ff6a13' }} _active={{ bg: 'transparent' }} m="1" />
+            <IconButton as={Link} to="https://x.com/RayshunHurt" aria-label="X" icon={<Image src={XLogo} alt="X Logo" boxSize="36px" />} variant="ghost" color="#000000" _hover={{ color: '#F5F5F5' }} _active={{ bg: 'transparent' }} m="1" />
+            <IconButton as={Link} to="https://www.hudl.com/profile/18697964/Rayshun-Hurt" aria-label="Hudl" icon={<Image src="/hudl-logo.png" alt="Hudl Logo" boxSize="36px" />} variant="ghost" color="#000000" _hover={{ color: '#ff6a13' }} _active={{ bg: 'transparent' }} m="1" />
           </Flex>
         </MotionBox>
       </Flex>

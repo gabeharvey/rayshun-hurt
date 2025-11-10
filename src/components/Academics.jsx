@@ -8,12 +8,9 @@ function Academics() {
     title: "Academic Achievements",
     image: "/johnson-logo.png", // Replace with your actual image
     achievements: [
-      "Honor Roll Student – Johnson High School (2023–2024)",
-      "3.8 GPA, Advanced Placement Coursework",
-      "National Honor Society Member",
-      "Student Leadership Council Representative",
-      "Top 10% of Graduating Class",
-      "Perfect Attendance Award",
+      "3.3 GPA (85.022)",
+      "960 SAT",
+      "Volunteer Community Service (Urgent Care Sports Physical/Middle School 7v7"
     ],
   };
 
