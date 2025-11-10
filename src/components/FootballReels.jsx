@@ -53,7 +53,7 @@ function FootballReels() {
     {
       videoSrc: "rayshun-vid-2.MOV",
       title: "TD Run After Contact",
-      description: "Breaks free, hits top speed, and finishes with a stiff-arm at the goal line.",
+      description: "Elusiveness, speed, and power on display.",
     },
     {
       videoSrc: "rayshun-spin.MOV",
