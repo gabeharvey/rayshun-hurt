@@ -75,7 +75,7 @@ function Stats() {
             zIndex={2}
             position="relative"
           >
-            2024 Season Stats
+            2025 Season Stats
           </Heading>
 
           <Grid gap={3} zIndex={2} position="relative">
