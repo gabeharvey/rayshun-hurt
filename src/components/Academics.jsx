@@ -10,7 +10,7 @@ function Academics() {
     achievements: [
       "3.3 GPA (85.022)",
       "960 SAT",
-      "Volunteer Community Service (Urgent Care Sports Physical/Middle School 7v7"
+      "Volunteer Community Service (Urgent Care Sports Physical/Middle School 7v7)"
     ],
   };
 
