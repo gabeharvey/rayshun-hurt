@@ -141,7 +141,7 @@ function PlayerCards() {
     {
       frontImg: "rayshun-2.JPG",
       name: "Rayshun Hurt",
-      bio: "As a wide receiver, Rayshun shows precise route running and strong hands — a nightmare for defensive backs.",
+      bio: "Shiftiness, compact, power, explosiveness, and blazing speed are a few words that describe Rayshun's game.",
     },
     {
       frontImg: "rayshun-3.PNG",
