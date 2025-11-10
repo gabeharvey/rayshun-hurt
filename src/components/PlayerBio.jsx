@@ -177,7 +177,7 @@ function PlayerProfile() {
             <IconButton as={Link} to="https://facebook.com" aria-label="Facebook" icon={<FaFacebookF />} variant="ghost" color="#000000" fontSize="24px" _hover={{ color: '#0056b3' }} _active={{ bg: 'transparent' }} m="1" />
             <IconButton as={Link} to="https://www.instagram.com" aria-label="Instagram" icon={<FaInstagram />} variant="ghost" color="#000000" fontSize="24px" _hover={{ color: '#e1306c' }} _active={{ bg: 'transparent' }} m="1" />
             <IconButton as={Link} to="https://snapchat.com" aria-label="Snapchat" icon={<FaSnapchatGhost />} variant="ghost" color="#000000" fontSize="24px" _hover={{ color: '#fffc00' }} _active={{ bg: 'transparent' }} m="1" />
-            <IconButton as={Link} to="https://x.com" aria-label="X" icon={<Image src={XLogo} alt="X Logo" boxSize="24px" />} variant="ghost" color="#000000" _hover={{ color: '#F5F5F5' }} _active={{ bg: 'transparent' }} m="1" />
+            <IconButton as={Link} to="https://x.com/RayshunHurt" aria-label="X" icon={<Image src={XLogo} alt="X Logo" boxSize="24px" />} variant="ghost" color="#000000" _hover={{ color: '#F5F5F5' }} _active={{ bg: 'transparent' }} m="1" />
             <IconButton as={Link} to="https://www.youtube.com" aria-label="YouTube" icon={<FaYoutube />} variant="ghost" color="#000000" fontSize="24px" _hover={{ color: '#c4302b' }} _active={{ bg: 'transparent' }} m="1" />
           </Flex>
         </MotionBox>
