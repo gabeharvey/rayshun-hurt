@@ -70,21 +70,21 @@ function FootballReels() {
       title: "Touchdown Machine",
       description: "End zone regular — Johnson High’s playmaker.",
     },
-    {
-      videoSrc: "rayshun-route.MOV",
-      title: "Crisp Route Running",
-      description: "Footwork precision. Wideout excellence.",
-    },
-    {
-      videoSrc: "rayshun-track.MOV",
-      title: "Track Meet Highlights",
-      description: "Pure speed. Championship mentality.",
-    },
-    {
-      videoSrc: "rayshun-allstar.MOV",
-      title: "All-Star Game Highlights",
-      description: "Proving why he’s one of Texas’ finest.",
-    },
+    // {
+    //   videoSrc: "rayshun-route.MOV",
+    //   title: "Crisp Route Running",
+    //   description: "Footwork precision. Wideout excellence.",
+    // },
+    // {
+    //   videoSrc: "rayshun-track.MOV",
+    //   title: "Track Meet Highlights",
+    //   description: "Pure speed. Championship mentality.",
+    // },
+    // {
+    //   videoSrc: "rayshun-allstar.MOV",
+    //   title: "All-Star Game Highlights",
+    //   description: "Proving why he’s one of Texas’ finest.",
+    // },
   ];
 
   const columns = useBreakpointValue({ base: 1, sm: 1, md: 2, lg: 3, xl: 4 });

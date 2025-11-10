@@ -134,45 +134,45 @@ function PlayerCards() {
 
   const players = [
     {
-      frontImg: "rayshun-hurt.JPG",
+      frontImg: "rayshun-1.JPG",
       name: "Rayshun Hurt",
       bio: "Rayshun Hurt is a dominant RB with explosive acceleration and elite field vision, turning every carry into a home-run threat.",
     },
     {
-      frontImg: "rayshun-hurt.JPG",
+      frontImg: "rayshun-2.JPG",
       name: "Rayshun Hurt",
       bio: "As a wide receiver, Rayshun shows precise route running and strong hands — a nightmare for defensive backs.",
     },
     {
-      frontImg: "rayshun-hurt.JPG",
+      frontImg: "rayshun-3.PNG",
       name: "Rayshun Hurt",
       bio: "On the track, Rayshun’s top-end speed sets him apart — a dual-sport athlete who brings sprinter speed to the gridiron.",
     },
-    {
-      frontImg: "rayshun-hurt.JPG",
-      name: "Rayshun Hurt",
-      bio: "Rayshun’s agility and balance make him nearly impossible to tackle in open space — pure highlight reel material.",
-    },
-    {
-      frontImg: "rayshun-hurt.JPG",
-      name: "Rayshun Hurt",
-      bio: "In clutch moments, Rayshun thrives — a leader who elevates his team with every snap.",
-    },
-    {
-      frontImg: "rayshun-hurt.JPG",
-      name: "Rayshun Hurt",
-      bio: "From the backfield or out wide, Rayshun delivers — versatility that defines modern football excellence.",
-    },
-    {
-      frontImg: "rayshun-hurt.JPG",
-      name: "Rayshun Hurt",
-      bio: "Rayshun combines football IQ, toughness, and explosive speed — the complete offensive weapon.",
-    },
-    {
-      frontImg: "rayshun-hurt.JPG",
-      name: "Rayshun Hurt",
-      bio: "Johnson High’s premier playmaker — a relentless competitor destined for greatness.",
-    },
+    // {
+    //   frontImg: "rayshun-hurt.JPG",
+    //   name: "Rayshun Hurt",
+    //   bio: "Rayshun’s agility and balance make him nearly impossible to tackle in open space — pure highlight reel material.",
+    // },
+    // {
+    //   frontImg: "rayshun-hurt.JPG",
+    //   name: "Rayshun Hurt",
+    //   bio: "In clutch moments, Rayshun thrives — a leader who elevates his team with every snap.",
+    // },
+    // {
+    //   frontImg: "rayshun-hurt.JPG",
+    //   name: "Rayshun Hurt",
+    //   bio: "From the backfield or out wide, Rayshun delivers — versatility that defines modern football excellence.",
+    // },
+    // {
+    //   frontImg: "rayshun-hurt.JPG",
+    //   name: "Rayshun Hurt",
+    //   bio: "Rayshun combines football IQ, toughness, and explosive speed — the complete offensive weapon.",
+    // },
+    // {
+    //   frontImg: "rayshun-hurt.JPG",
+    //   name: "Rayshun Hurt",
+    //   bio: "Johnson High’s premier playmaker — a relentless competitor destined for greatness.",
+    // },
   ];
 
   const columns = useBreakpointValue({ base: 1, sm: 1, md: 2, lg: 3, xl: 4 });
