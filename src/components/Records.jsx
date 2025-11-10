@@ -7,7 +7,7 @@ function Records() {
   const records = {
     title: "Athletic Records",
     track: [
-      { event: "100m Dash", time: "10.82s" },
+      { event: "100m Dash", time: "10.47s" },
       { event: "200m Dash", time: "21.28s" },
     ],
     football: [
