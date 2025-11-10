@@ -56,19 +56,19 @@ function FootballReels() {
       description: "Elusiveness, speed, and power on display.",
     },
     {
-      videoSrc: "rayshun-spin.MOV",
-      title: "Spin Move Highlight",
-      description: "RB vision and balance — next level.",
+      videoSrc: "rayshun-vid-3.MOV",
+      title: "Power on Display",
+      description: "Overpowering Defender for TD.",
     },
     {
-      videoSrc: "rayshun-burst.MOV",
-      title: "Track Speed on the Field",
-      description: "Blazing acceleration that burns defenders.",
+      videoSrc: "rayshun-vid-4.MOV",
+      title: "Rayshun Highlights",
+      description: "A rare blend of shiftiness, power, and burst.",
     },
     {
-      videoSrc: "rayshun-td.MOV",
-      title: "Touchdown Machine",
-      description: "End zone regular — Johnson High’s playmaker.",
+      videoSrc: "rayshun-vid-5.MOV",
+      title: "Compact Power",
+      description: "Johnson High's Playmaker",
     },
     // {
     //   videoSrc: "rayshun-route.MOV",
