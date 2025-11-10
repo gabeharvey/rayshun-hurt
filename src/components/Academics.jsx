@@ -6,7 +6,7 @@ const MotionBox = motion.create(Box);
 function Academics() {
   const academics = {
     title: "Academic Achievements",
-    image: "/rayshun-hurt.JPG", // Replace with your actual image
+    image: "/johnson-logo.png", // Replace with your actual image
     achievements: [
       "Honor Roll Student – Johnson High School (2023–2024)",
       "3.8 GPA, Advanced Placement Coursework",
